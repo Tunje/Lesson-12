@@ -1,0 +1,19 @@
+@import '_flex';
+@import '_top';
+@import '_center';
+
+
+
+body{
+    max-width: 99vw;
+    max-height: 98vh;
+}
+.MaxWH{
+    width: 100%;
+    height: 100%;
+}
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
+}

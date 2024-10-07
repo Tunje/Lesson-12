@@ -5,8 +5,6 @@
     align-items: center;
     &_L{
         align-items: start;
-    }&_Ai_E{
-        align-items: end;
     }
     &_Ai_E{
         align-items: end;
@@ -31,7 +29,8 @@
     }
     &_row{
         flex-direction: row;
-    }&_rowR{
+    }
+    &_rowR{
         flex-direction: row-reverse;
     }
     &_col{
