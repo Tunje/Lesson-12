@@ -1,8 +1,11 @@
 
 
 .fonts{
-    font-family: 'Mulish';
+    font-family: "Source Code Pro", monospace;
     font-style: normal;
+    &_alt{
+        font-family: "Poppins", sans-serif;
+        }
     &_tiny{
         font-size: 16px;
         line-height: 20px;
@@ -30,6 +33,17 @@
     &_swift{
         font-size: 28px;
         line-height: 38px;
+        }
+    &_soup{
+        font-size: 22px;
+        line-height: 33px;
+        }
+    &_giga{    
+        font-size: 90px;
+        line-height: 102px;
+        }
+    &_boldE{
+        font-weight: 500;
         }
     &_bold{
         font-weight: bold;
@@ -59,7 +73,7 @@
         }
     &_shift{
         mix-blend-mode: normal;
-    opacity: 0.5;
+        opacity: 0.5;
         }
     &_inv{
         mix-blend-mode: normal;
@@ -68,4 +82,4 @@
     }
 .deco{
     text-decoration: none;
-    }
+}

@@ -2,6 +2,7 @@
 @import '_top';
 @import '_center';
 @import '_nav';
+@import '_font';
 
 
 
@@ -13,8 +14,6 @@ body{
     width: 100%;
     height: 100%;
 }
-.location{
-    border: #c37272;
-    border-width: 3px;
-    border-style: solid;
+.marg{
+    margin-top: 0px;
 }
