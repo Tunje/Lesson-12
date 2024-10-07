@@ -17,3 +17,19 @@ body{
 .marg{
     margin-top: 0px;
 }
+
+.hide{
+    display: none;
+}
+.row{
+    flex-direction: column;
+}
+@media screen and (min-width:1200px) {
+    .hide{
+        display: block;
+    }
+    .row{
+        flex-direction: row;
+    }
+}   
+    
