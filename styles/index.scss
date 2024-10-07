@@ -19,78 +19,104 @@ body{
 }
 
 .hide{
-    display: none;
+    display: block;
 }
 .row{
-    flex-direction: column;
+    flex-direction: row;
 }
 .textbox{
-    min-height: 478px;
+    min-height: 648px;
     max-width: 576px;
 }
 .text{
-    text-align: center;
+    text-align: start;
 }
 .flex_Ori{
-    align-content: center;
+    align-content: flex-start;
 }
 .hideNav{
-    display: none;
+    display: flex;
 }
 .hideNav02{
+    display: none;
+}
+.center-bread{
+    min-height: 246px;
+    max-width: 416px;
+}
+.center-text{
+    max-height: 98px;
+    max-width: 410px;
+}
+.title-fix{
+    align-self: flex-start;
+}
+.image-01{
     display: block;
 }
-@media screen and (min-width:1200px) {
+.image-02{
+    display: none;
+}
+.image-03{
+    display: none;
+}
+@media screen and (max-width: 1048px) and (min-width: 420px)
+{
     .hide{
-        display: block;
-    }
-    .row{
-        flex-direction: row;
-    }
-    .textbox{
-        min-height: 648px;
-        max-width: 576px;
-    }
-    .text{
-        text-align: start;
-    }
-    .flex_Ori{
-        align-content: start;
-    }
-    .hideNav{
-        display: flex;
-    }
-    .hideNav02{
         display: none;
     }
-}   
-@media screen and (min-width:863px) {
-    .hide{
-        display: block;
-    }
     .row{
-        flex-direction: row;
+        flex-direction: column;
     }
     .textbox{
-        min-height: 648px;
-        max-width: 576px;
+        min-height: 478px;
+        max-width: 776px;
     }
-    .text{
-        text-align: start;
+    .center-bread{
+        min-height: 246px;
+        max-width: 556px;
+    }
+    .center-text{
+        max-height: 98px;
+        max-width: 550px;
     }
     .flex_Ori{
-        align-content: start;
+        align-content: center;
     }
-}
-@media screen and (min-width:320px) {
-    .hideNav{
-        display: flex;
+    .text{
+        text-align: center;
     }
-    .hideNav02{
+    .title-fix{
+        align-self: center;
+    }
+    .image-01{
+        display: none;
+    }
+    .image-02{
+        display: block;
+    }
+    .image-03{
         display: none;
     }
 }
-
+@media screen and (max-width: 420px)
+{
+    .hideNav{
+        display: none;
+    }
+    .hideNav02{
+        display: block;
+    }
+    .image-01{
+        display: none;
+    }
+    .image-02{
+        display: none;
+    }
+    .image-03{
+        display: block;
+    }
+}
 
 
 .location{
